@@ -30,6 +30,7 @@ function Projetos() {
               demoLink="./"
             />
           </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={promocao}
@@ -40,6 +41,7 @@ function Projetos() {
               demoLink="https://davi38.github.io/atelie-frontend/"
             />
           </Col>
+          
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={medida}
