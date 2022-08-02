@@ -38,7 +38,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <Nav.Item className="logo">
               <Button
-                href="https://github.com/davi38/Portfolio" 
+                href="https://github.com/davi38/davi38.github.io"
                 target="_blank"
                 className="fork-btn-inner"
               >

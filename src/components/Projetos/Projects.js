@@ -5,6 +5,7 @@ import Particle from "../Particle";
 import medida from "../../Assets/Projects/medida.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import calcMedia from "../../Assets/Projects/calc-media.png";
+import promocao from "../../Assets/Projects/promocao.png";
 
 function Projetos() {
   return (
@@ -18,6 +19,27 @@ function Projetos() {
           Alguns projetos que venho trabalhando recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Porfolio Site"
+              description="Portfolio baseado em edição em react com adição de novos módulos, edição e mudanças no projeto de 'soumyajit4419'."
+              ghLink="https://github.com/davi38/davi38.github.io"
+              demoLink="./"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={promocao}
+              isBlog={false}
+              title="Página de Promoção"
+              description="Página de promoção para cadastro de empresas com acesso a uma API com método POST"
+              ghLink="https://github.com/davi38/atelie-frontend"
+              demoLink="https://davi38.github.io/atelie-frontend/"
+            />
+          </Col>
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={medida}
@@ -37,17 +59,6 @@ function Projetos() {
               description="Página web feita para calculo de média escolar bimestral, com média necessária para ser aprovado em 7 e mensagem especial para alunos com média acima de 9, algoritmo feito em Javascript."
               ghLink="https://github.com/davi38/Calcular-Media"
               demoLink="https://davi38.github.io/Calcular-Media/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Porfolio Site"
-              description="Portfolio baseado em edição em react com adição de novos módulos, edição e mudanças no projeto de 'soumyajit4419'."
-              ghLink="https://github.com/davi38/portfolio"
-              demoLink="./"
             />
           </Col>
         </Row>

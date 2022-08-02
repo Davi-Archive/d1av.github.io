@@ -14,6 +14,7 @@ import { TiHtml5 } from "react-icons/ti";
 import {
   SiVisualstudiocode,
   SiMysql,
+  SiTailwindcss,
 } from "react-icons/si";
 
 
@@ -43,6 +44,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTailwindcss />
       </Col>
     </Row>
   );
