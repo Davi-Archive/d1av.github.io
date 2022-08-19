@@ -41,7 +41,19 @@ function Projetos() {
               demoLink="https://davi38.github.io/atelie-frontend/"
             />
           </Col>
-          
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={calcMedia}
+              isBlog={false}
+              title="Crypto Backend"
+              description="Página web feita com integração a uma API para você saber a cotação das 10 melhores cryptomoedas no EUA."
+              ghLink="https://github.com/davi38/crypto-backend"
+              demoLink="https://crypto-backend-eta.vercel.app/"
+            />
+          </Col>
+
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={medida}
