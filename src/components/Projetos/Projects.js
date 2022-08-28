@@ -6,6 +6,7 @@ import medida from "../../Assets/Projects/medida.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import calcMedia from "../../Assets/Projects/calc-media.png";
 import promocao from "../../Assets/Projects/promocao.png";
+import cryptoBackend from "../../Assets/Projects/cryptoBack.png";
 
 function Projetos() {
   return (
@@ -44,7 +45,7 @@ function Projetos() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={calcMedia}
+              imgPath={cryptoBackend}
               isBlog={false}
               title="Crypto Backend"
               description="Página web feita com integração a uma API para você saber a cotação das 10 melhores cryptomoedas no EUA."

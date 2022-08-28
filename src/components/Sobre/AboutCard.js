@@ -10,11 +10,9 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Olá, eu sou <span className="purple">Davi Alves de Oliveira </span>
             moro em <span className="purple"> São Paulo, Brasil.</span>
-            <br />Sou Desenvolvedor com <span className="purple">tecnólogo </span> e estou sempre <span className="purple">estudando</span>
+            <br />Sou Desenvolvedor formado e estou sempre <span className="purple">estudando</span>
             , atualmente meu foco é em desenvolvimento <span className="purple">Fullstack</span> com conhecimento de
-            <span className="purple"> Frontend</span> e <span className='purple'> Backend</span>.
-            <br />Gosto muito do mundo da <span className="purple">tecnologia</span> ele é muito
-            dinâmico, sempre com algo  interessante para aprender.
+            <span className="purple"> Frontend</span> e <span className='purple'> Backend</span>
             <br />
             <br />
             Minhas principais qualidades são:

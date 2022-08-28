@@ -26,35 +26,37 @@ function Home2() {
               UMA BREVE <span className="purple"> INTRODUÇÃO </span>
             </h1>
             <p className="home-about-body">
-              Gosto muito de Web desenvolvimento e programação, já aprendi muita coisa e sempre quero aprender mais! <FaBook />
+              Gosto muito de Web desenvolvimento, caso precise de um site ou aplicação, entre em contato.  <FaBook />
               <br />
-              <br />Sou bom com
+              <br />Habilidades:
               <i>
-                <b className="purple"> Javascript, HTML, CSS e React (este site foi feito em React <DiReact />). </b>
-                E estou disposto a aprender novas linguas!
+                <b className="yellow">
+                  <ul>
+                    <li>Typescript</li>
+                    <li>React ( React-hooks , Redux , Router , TailwindCSS , Bootspring , Nextjs , SASS )</li>
+                    <li>Nodejs ( Javascript , Expressjs )</li>
+                    <li>Banco de Dados ( PostgreSQL , MySQL , MongoDB )</li>
+                    <li>Git , Github e Docker</li>
+                    <li>Javascript, HTML, CSS</li>
+                    <li>BASH e Shell</li>
+                    <li> Inglês Avançado</li>
+                    <li>E muitas outras...</li>
+                  </ul>
+                </b>
+                <b className="purple">Este site foi feito em React <DiReact /></b>, usando diversos modulos e as melhores práticas.
               </i>
               <br />
               <br />
               Meus interesses estão em desenvolver&nbsp;
               <i>
-                <b className="purple">Produtos e Tecnologias para a Web </b> também à áreas relacionadas a programação em geral <b className="purple">(C++, Python, Java)</b>, gosto de{" "}
+                <b className="purple">Produtos e Tecnologias para a Web </b>, gosto de{" "}
                 <b className="purple">
                   Frameworks e Aplicativos para Celular.
                 </b>
               </i>
               <br />
               <br />
-              Sempre que possível, eu crio projetos para melhorar minhas habilidades principalmente em <b className="purple">Node.js</b> e
-              <i>
-                <b className="purple">
-                  {" "}
-                  Frameworks
-                </b>
-              </i>
-              &nbsp; como
-              <i>
-                <b className="purple"> React.js.</b>
-              </i>
+              Estou sempre criando projetos e vendo sites! caso precise de um entre em <b className="purple">contato.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">

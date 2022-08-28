@@ -35,7 +35,7 @@ function Sobre() {
           </Col>
         </Row>
         <h1 className="project-heading">
-          Linguagens de <strong className="purple">Programação</strong>
+          Hard <strong className="purple">Skills</strong>
         </h1>
 
         <Techstack />
