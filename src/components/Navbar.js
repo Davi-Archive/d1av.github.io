@@ -9,6 +9,7 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineClockCircle,
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
@@ -37,15 +38,15 @@ function NavBar() {
       <Container>
         <Navbar.Brand href="/" className="d-flex">
           <Nav.Item className="logo">
-              <Button
-                href="https://github.com/davi38/davi38.github.io"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-                Portfolio
-              </Button>
-            </Nav.Item>
+            <Button
+              href="https://github.com/davi38/davi38.github.io"
+              target="_blank"
+              className="fork-btn-inner"
+            >
+              <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
+              Portfolio
+            </Button>
+          </Nav.Item>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -96,7 +97,13 @@ function NavBar() {
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resumo
               </Nav.Link>
-             </Nav.Item>
+            </Nav.Item>
+            <Nav.Item className="logo">
+              <Button>
+                <AiOutlineClockCircle style={{ fontSize: "1.2em" }} />{" "}
+                {new Date().toLocaleTimeString()}
+              </Button>
+            </Nav.Item>
 
           </Nav>
         </Navbar.Collapse>

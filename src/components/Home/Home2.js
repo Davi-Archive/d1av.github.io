@@ -25,12 +25,12 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               UMA BREVE <span className="purple"> INTRODUÇÃO </span>
             </h1>
-            <p className="home-about-body">
+            <span className="home-about-body">
               Gosto muito de Web desenvolvimento, caso precise de um site ou aplicação, entre em contato.  <FaBook />
               <br />
               <br />Habilidades:
               <i>
-                <b className="yellow">
+                <span className="yellow">
                   <ul>
                     <li>Typescript</li>
                     <li>React ( React-hooks , Redux , Router , TailwindCSS , Bootspring , Nextjs , SASS )</li>
@@ -42,7 +42,7 @@ function Home2() {
                     <li> Inglês Avançado</li>
                     <li>E muitas outras...</li>
                   </ul>
-                </b>
+                </span>
                 <b className="purple">Este site foi feito em React <DiReact /></b>, usando diversos modulos e as melhores práticas.
               </i>
               <br />
@@ -57,7 +57,7 @@ function Home2() {
               <br />
               <br />
               Estou sempre criando sites! caso precise de um entre em <b className="purple">contato.</b>
-            </p>
+            </span>
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
