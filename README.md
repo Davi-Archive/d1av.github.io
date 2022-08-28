@@ -6,7 +6,6 @@ https://user-images.githubusercontent.com/107776531/187005054-29a10411-7216-48fa
 
 <div align="center">
 </div>
-<p>Website baseado no modelo de: <a href="https://github.com/soumyajit4419/Portfolio" target="_blank" rel="noreferrer">https://github.com/soumyajit4419/Portfolio</a></p>
 <br/>
 
 
