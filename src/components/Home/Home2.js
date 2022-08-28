@@ -56,7 +56,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Estou sempre criando projetos e vendo sites! caso precise de um entre em <b className="purple">contato.</b>
+              Estou sempre criando sites! caso precise de um entre em <b className="purple">contato.</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
