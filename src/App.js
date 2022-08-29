@@ -17,12 +17,19 @@ import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 
+//Google Analytics
+import ReactGA from 'react-ga';
+const TRACKING_ID = "G-PSWY7Z38KH";
+ReactGA.initialize(TRACKING_ID);
+
+
 function App() {
   const [load, upadateLoad] = useState(true);
 
   useEffect(() => {
     const timer = setTimeout(() => {
       upadateLoad(false);
+      ReactGA.pageview(window.location.pathname + window.location.search);
     }, 1200);
 
     return () => clearTimeout(timer);
