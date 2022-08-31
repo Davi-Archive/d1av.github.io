@@ -2,13 +2,14 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import medida from "../../Assets/Projects/medida.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import calcMedia from "../../Assets/Projects/calc-media.png";
-import promocao from "../../Assets/Projects/promocao.png";
-import cryptoBackend from "../../Assets/Projects/cryptoBack.png";
+
 
 function Projetos() {
+  const medida = require('../../Assets/Projects/medida.png')
+  const portfolio = require('../../Assets/Projects/portfolio.png')
+  const calcMedia = require('../../Assets/Projects/calc-media.png')
+  const promocao = require('../../Assets/Projects/promocao.png')
+  const cryptoBackend = require('../../Assets/Projects/cryptoBack.png')
   return (
     <Container fluid className="project-section">
       <Particle />

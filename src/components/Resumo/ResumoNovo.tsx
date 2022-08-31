@@ -2,15 +2,16 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/DaviAlves-developer.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
-import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
+/* import { Document, Page } from "react-pdf"; */
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
+import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
+
 
 const resumoLinkAutoAtualiza = "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/DaviAlves-developer.pdf";
 
 function ResumeNew() {
+  const pdf = require("../../Assets/../Assets/DaviAlves-developer.pdf");
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
@@ -34,7 +35,8 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <Document file={resumoLinkAutoAtualiza ?? pdf} className="d-flex justify-content-center">  {/* mudar quando tiver no github */}
+          <Document file={resumoLinkAutoAtualiza ?? pdf} className="d-flex justify-content-center"
+          options={{ workerSrc: "/pdf.worker.js" }}>  {/* mudar quando tiver no github */}
             <Page pageNumber={1} scale={width > 786 ? 1.7 : 0.6} />
           </Document>
         </Row>

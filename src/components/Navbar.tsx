@@ -29,7 +29,7 @@ function NavBar() {
 
 
 
-  const [expand, updateExpanded] = useState< boolean | string >(false)!;
+  const [expand, updateExpanded] = useState< boolean  | undefined >(false)!;
   const [navColour, updateNavbar] = useState< boolean | string >(false);
 
   function scrollHandler() {
@@ -65,7 +65,7 @@ function NavBar() {
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
           onClick={() => {
-            updateExpanded(expand ? false : "expanded");
+            updateExpanded(expand ? false : true);
           }}
         >
           <span></span>

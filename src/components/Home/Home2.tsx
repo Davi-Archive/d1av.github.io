@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -8,7 +7,6 @@ import {
   AiOutlineMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import ParticleTextEffect from "particle-text-effect";
 import { DiReact } from 'react-icons/di';
 import { FaBook } from 'react-icons/fa';
 
@@ -17,6 +15,7 @@ import { FaBook } from 'react-icons/fa';
 
 
 function Home2() {
+  const myImg = require("../../Assets/avatar.png")
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -67,7 +66,7 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1><ParticleTextEffect text="ME SIGA NAS REDES" type="confetti" /></h1>
+            <h1>ME SIGA NAS REDES</h1>
             <p>
               Fique livre para me <span className="purple">mandar uma mensagem</span>.
             </p>

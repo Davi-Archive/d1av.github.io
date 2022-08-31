@@ -4,10 +4,10 @@ import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
-import { StaggerTextReveal } from "stagger-text-reveal-animation";
+
 
 function Sobre() {
+  const laptopImg = require( "../../Assets/about.png");
   return (
     <Container fluid className="about-section">
       <Particle />
@@ -22,7 +22,7 @@ function Sobre() {
             }}
           >
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              <strong className="purple" id="katakata"><StaggerTextReveal text={"SAIBA"} duration="1.7" /></strong> quem eu sou.
+              <strong className="purple" id="katakata">SAIBA</strong> quem eu sou.
             </h1>
             <Aboutcard />
           </Col>
