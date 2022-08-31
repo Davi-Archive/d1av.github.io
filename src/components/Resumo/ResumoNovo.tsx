@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/DaviAlves-webdeveloper.pdf";
+import pdf from "../../Assets/../Assets/DaviAlves-developer.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { Document, Page, pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
-const resumoLinkAutoAtualiza = "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/DaviAlves-webdeveloper.pdf";
+const resumoLinkAutoAtualiza = "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/DaviAlves-developer.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
