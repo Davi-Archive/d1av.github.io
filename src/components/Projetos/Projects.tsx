@@ -27,7 +27,7 @@ function Projetos() {
               imgPath={portfolio}
               isBlog={false}
               title="Porfolio Site"
-              description="Portfolio feito para melhor apresentação, feito com Typescript e React.js."
+              description="Portfolio para melhor apresentação, feito com Typescript e React.js."
               ghLink="https://github.com/davi38/davi38.github.io"
               demoLink="./"
             />
