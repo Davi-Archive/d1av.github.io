@@ -21,7 +21,7 @@ function Github() {
     <p></p>
     <p></p>
     <p></p>
-    <p>Website baseado no modelo de: <a href="https://github.com/soumyajit4419/Portfolio" target="_blank" rel="noreferrer">https://github.com/soumyajit4419/Portfolio</a></p>
+    <p></p>
     </Row>
     </>
   );

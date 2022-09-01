@@ -27,7 +27,7 @@ function Projetos() {
               imgPath={portfolio}
               isBlog={false}
               title="Porfolio Site"
-              description="Portfolio baseado em edição em react com adição de novos módulos, edição e mudanças no projeto de 'soumyajit4419'."
+              description="Portfolio feito para melhor apresentação, feito com Typescript e React.js."
               ghLink="https://github.com/davi38/davi38.github.io"
               demoLink="./"
             />
