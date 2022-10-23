@@ -14,9 +14,8 @@ function Projetos() {
         "https://user-images.githubusercontent.com/107776531/193162591-da3ad0da-f8a7-4d69-a430-add61df868b7.png",
       description:
         "Portfolio para melhor apresentação internacional, feito com React.js e Express.",
-      ghLink: "https://github.com/d1av/d1av.github.io",
-      demoLink:
-        "https://user-images.githubusercontent.com/107776531/193162591-da3ad0da-f8a7-4d69-a430-add61df868b7.png",
+      ghLink: "https://github.com/d1av/portfolio-en-client",
+      demoLink: "https://portfolio-davi.vercel.app/",
     },
     {
       title: "Dashboard Portfólio em inglês",
@@ -33,7 +32,7 @@ function Projetos() {
         "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/Projects/ecommerce.png",
       description:
         "Página funcional de um E-Commerce com carrinho de compras usando low code.",
-      ghLink: "https://github.com/d1av/atelie-frontend",
+      ghLink: "https://github.com/d1av/ecommerce-nextjs",
       demoLink: "https://ecommerce-site-taupe.vercel.app/",
     },
     {

@@ -6,8 +6,8 @@ function Type() {
       options={{
         strings: [
           "Desenvolvedor",
-          "Frontend",
-          "Backend",
+          "Fullstack",
+          "DevOps",
           "Programação",
         ],
         autoStart: true,

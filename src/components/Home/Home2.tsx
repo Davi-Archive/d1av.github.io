@@ -33,18 +33,19 @@ function Home2() {
               <i>
                 <span className="yellow">
                   <ul>
-                    <li>Typescript</li>
+                    <li>Typescript, Javascript</li>
                     <li>
                       React ( React-hooks , Redux , Router , TailwindCSS ,
                       Bootspring , Nextjs , SASS )
                     </li>
-                    <li>Nodejs ( Javascript , Expressjs )</li>
-                    <li>Banco de Dados ( PostgreSQL , MySQL , MongoDB )</li>
+                    <li>Vue js ( Nuxt js )</li>
+                    <li>Angular</li>
+                    <li>Nodejs ( Javascript , Expressjs, JWT, Token )</li>
+                    <li>Banco de Dados ( PostgreSQL , MySQL , MongoDB, MSSQL )</li>
                     <li>Git , Github e Docker</li>
-                    <li>Javascript, HTML, CSS</li>
+                    <li>HTML, CSS</li>
                     <li>BASH e Shell</li>
                     <li> Inglês Avançado</li>
-                    <li>E muitas outras...</li>
                   </ul>
                 </span>
                 <b className="purple">
@@ -61,9 +62,6 @@ function Home2() {
                 <b className="purple">Frameworks e Aplicativos para Celular.</b>
               </i>
               <br />
-              <br />
-              Estou sempre criando sites! caso precise de um entre em{" "}
-              <b className="purple">contato.</b>
             </span>
           </Col>
           <Col md={4} className="myAvtar">
