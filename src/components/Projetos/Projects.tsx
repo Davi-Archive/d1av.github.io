@@ -66,7 +66,7 @@ function Projetos() {
       image: promocao,
       description:
         "Página de promoção para cadastro de empresas com acesso a uma API com método POST.",
-      ghLink: "https://github.com/d1av/atelie-frontend",
+      ghLink: "https://github.com/d1av/promotion-site-client",
       demoLink: "https://d1av.github.io/promotion-site-client/",
     },
     {
