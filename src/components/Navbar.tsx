@@ -43,7 +43,7 @@ function NavBar() {
               className="fork-btn-inner"
             >
               <CgGitFork style={{ fontSize: "1.2em" }} />{" "}
-              Portfolio Site Repository
+              Portfolio Code
             </Button>
           </Nav.Item>
         </Navbar.Brand>
