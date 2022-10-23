@@ -10,7 +10,7 @@ function Github() {
         Atividade no <strong className="purple">GitHub</strong>
       </h1>
       <GitHubCalendar
-        username="davi38"
+        username="d1av"
         blockSize={15}
         blockMargin={5}
         color="#c76CF2C"

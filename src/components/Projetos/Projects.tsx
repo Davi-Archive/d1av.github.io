@@ -1,15 +1,91 @@
-import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
-
 function Projetos() {
-  const medida = require('../../Assets/Projects/medida.png')
-  const portfolio = require('../../Assets/Projects/portfolio.png')
-  const calcMedia = require('../../Assets/Projects/calc-media.png')
-  const promocao = require('../../Assets/Projects/promocao.png')
-  const cryptoBackend = require('../../Assets/Projects/cryptoBack.png')
+  const portfolio = require("../../Assets/Projects/portfolio.png");
+  const promocao = require("../../Assets/Projects/promocao.png");
+  const cryptoBackend = require("../../Assets/Projects/cryptoBack.png");
+
+  const projects: any = [
+    {
+      title: "Site Portfólio em inglês",
+      image:
+        "https://user-images.githubusercontent.com/107776531/193162591-da3ad0da-f8a7-4d69-a430-add61df868b7.png",
+      description:
+        "Portfolio para melhor apresentação internacional, feito com React.js e Express.",
+      ghLink: "https://github.com/d1av/d1av.github.io",
+      demoLink:
+        "https://user-images.githubusercontent.com/107776531/193162591-da3ad0da-f8a7-4d69-a430-add61df868b7.png",
+    },
+    {
+      title: "Dashboard Portfólio em inglês",
+      image:
+        "https://user-images.githubusercontent.com/107776531/195632496-5f8b8f14-597e-4827-83a6-1b22a71c1839.png",
+      description:
+        "Aplicação para editar informações do meu portfólio atraves de uma dashboard.",
+      ghLink: "https://github.com/d1av/portfolio-en-dashboard",
+      demoLink: "https://dashboard-portfolio.netlify.app/",
+    },
+    {
+      title: "E-Commerce",
+      image:
+        "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/Projects/ecommerce.png",
+      description:
+        "Página funcional de um E-Commerce com carrinho de compras usando low code.",
+      ghLink: "https://github.com/d1av/atelie-frontend",
+      demoLink: "https://ecommerce-site-taupe.vercel.app/",
+    },
+    {
+      title: "Buscador Mejor con Salud",
+      image:
+        "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/Projects/custom-search.png",
+      description:
+        "Buscador que realiza pesquisa na API do Site mejor con salud.",
+      ghLink: "https://github.com/d1av/custom-search",
+      demoLink: "https://buscamejorsalud.vercel.app/",
+    },
+    {
+      title: "Site para Pet Shop",
+      image:
+        "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/Projects/petshop.png",
+      description: "Site para Pet Shop usando dados de uma API.",
+      ghLink: "https://github.com/d1av/petshop-client",
+      demoLink: "https://d1av.github.io/petshop-client/",
+    },
+    {
+      title: "Site Portfólio",
+      image: portfolio,
+      description:
+        "Portfolio para melhor apresentação, feito com Typescript e React.js.",
+      ghLink: "https://github.com/d1av/d1av.github.io",
+      demoLink: "./",
+    },
+    {
+      title: "Página de Promoção",
+      image: promocao,
+      description:
+        "Página de promoção para cadastro de empresas com acesso a uma API com método POST.",
+      ghLink: "https://github.com/d1av/atelie-frontend",
+      demoLink: "https://d1av.github.io/promotion-site-client/",
+    },
+    {
+      title: "Crypto Backend",
+      image: cryptoBackend,
+      description:
+        "Página web feita com integração a uma API para você saber a cotação das 10 melhores cryptomoedas no EUA.",
+      ghLink: "https://github.com/Davi-Archive/crypto-backend",
+      demoLink: "https://crypto-backend-eta.vercel.app/",
+    },
+    {
+      title: "Placar em React",
+      image:
+        "https://raw.githubusercontent.com/d1av/d1av.github.io/main/src/Assets/Projects/placar.png",
+      description: "Placar feito em React.",
+      ghLink: "https://github.com/d1av/placar-react",
+      demoLink: "https://d1av.github.io/placar-react/",
+    },
+  ];
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -21,62 +97,18 @@ function Projetos() {
           Alguns projetos que venho trabalhando recentemente.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={portfolio}
-              isBlog={false}
-              title="Porfolio Site"
-              description="Portfolio para melhor apresentação, feito com Typescript e React.js."
-              ghLink="https://github.com/davi38/davi38.github.io"
-              demoLink="./"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={promocao}
-              isBlog={false}
-              title="Página de Promoção"
-              description="Página de promoção para cadastro de empresas com acesso a uma API com método POST"
-              ghLink="https://github.com/davi38/atelie-frontend"
-              demoLink="https://davi38.github.io/atelie-frontend/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={cryptoBackend}
-              isBlog={false}
-              title="Crypto Backend"
-              description="Página web feita com integração a uma API para você saber a cotação das 10 melhores cryptomoedas no EUA."
-              ghLink="https://github.com/davi38/crypto-backend"
-              demoLink="https://crypto-backend-eta.vercel.app/"
-            />
-          </Col>
-
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={medida}
-              isBlog={false}
-              title="Conversor de Medidas"
-              description="Conversor de medidas que transforma 3 medidas, Quilômetro, Metro e Anos-Luz o algoritmo é feito em Javascript e a página é feita em html com estilos em CSS."
-              ghLink="https://github.com/davi38/Conversor-de-Medidas"
-              demoLink="https://davi38.github.io/Conversor-de-Medidas/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={calcMedia}
-              isBlog={false}
-              title="Calcular Média"
-              description="Página web feita para calculo de média escolar bimestral, com média necessária para ser aprovado em 7 e mensagem especial para alunos com média acima de 9, algoritmo feito em Javascript."
-              ghLink="https://github.com/davi38/Calcular-Media"
-              demoLink="https://davi38.github.io/Calcular-Media/"
-            />
-          </Col>
+          {projects.map((project: any) => (
+            <Col md={4} className="project-card">
+              <ProjectCard
+                imgPath={project.image}
+                isBlog={false}
+                title={project.title}
+                description={project.description}
+                ghLink={project.ghLink}
+                demoLink={project.demoLink}
+              />
+            </Col>
+          ))}
         </Row>
       </Container>
     </Container>

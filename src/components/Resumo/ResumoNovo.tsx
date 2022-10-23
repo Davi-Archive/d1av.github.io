@@ -8,7 +8,7 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
 
-const resumoLinkAutoAtualiza = "https://raw.githubusercontent.com/davi38/davi38.github.io/main/src/Assets/DaviAlves-developer.pdf";
+const resumoLinkAutoAtualiza = "https://raw.githubusercontent.com/d1av/d1av.github.io/main/src/Assets/DaviAlves-developer.pdf";
 
 function ResumeNew() {
   const pdf = require("../../Assets/../Assets/DaviAlves-developer.pdf");

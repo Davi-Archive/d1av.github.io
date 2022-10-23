@@ -16,20 +16,7 @@ import { CgFileDocument } from "react-icons/cg";
 
 function NavBar() {
 
-  let [time, setTime] = useState(new Date().toLocaleTimeString())
-
-  useEffect(()=>{
-    function timeClock(){
-      setTime(new Date().toLocaleTimeString());
-    }
-    setInterval(timeClock, 1000);
-  },[time]);
-
-
-
-
-
-  const [expand, updateExpanded] = useState< boolean  | undefined >(false)!;
+   const [expand, updateExpanded] = useState< boolean  | undefined >(false)!;
   const [navColour, updateNavbar] = useState< boolean | string >(false);
 
   function scrollHandler() {
@@ -53,7 +40,7 @@ function NavBar() {
         <Navbar.Brand href="/" className="d-flex">
           <Nav.Item className="logo">
             <Button
-              href="https://github.com/davi38/davi38.github.io"
+              href="https://github.com/d1av/d1av.github.io"
               target="_blank"
               className="fork-btn-inner"
             >
@@ -112,13 +99,6 @@ function NavBar() {
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Resumo
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item className="logo">
-              <Button>
-                <AiOutlineClockCircle style={{ fontSize: "1.2em" }} />{" "}
-                {time}
-              </Button>
-            </Nav.Item>
-
           </Nav>
         </Navbar.Collapse>
       </Container>

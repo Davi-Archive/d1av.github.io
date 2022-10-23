@@ -25,14 +25,19 @@ function Home2() {
               UMA BREVE <span className="purple"> INTRODUÇÃO </span>
             </h1>
             <span className="home-about-body">
-              Gosto muito de Web desenvolvimento, caso precise de um site ou aplicação, entre em contato.  <FaBook />
+              Gosto muito de Web desenvolvimento, caso precise de um site ou
+              aplicação, entre em contato. <FaBook />
               <br />
-              <br />Habilidades:
+              <br />
+              Habilidades:
               <i>
                 <span className="yellow">
                   <ul>
                     <li>Typescript</li>
-                    <li>React ( React-hooks , Redux , Router , TailwindCSS , Bootspring , Nextjs , SASS )</li>
+                    <li>
+                      React ( React-hooks , Redux , Router , TailwindCSS ,
+                      Bootspring , Nextjs , SASS )
+                    </li>
                     <li>Nodejs ( Javascript , Expressjs )</li>
                     <li>Banco de Dados ( PostgreSQL , MySQL , MongoDB )</li>
                     <li>Git , Github e Docker</li>
@@ -42,20 +47,23 @@ function Home2() {
                     <li>E muitas outras...</li>
                   </ul>
                 </span>
-                <b className="purple">Este site foi feito em React <DiReact /></b>, usando diversos modulos e as melhores práticas.
+                <b className="purple">
+                  Este site foi feito em React <DiReact />
+                </b>
+                , usando diversos modulos e as melhores práticas.
               </i>
               <br />
               <br />
               Meus interesses estão em desenvolver&nbsp;
               <i>
-                <b className="purple">Produtos e Tecnologias para a Web </b>, gosto de{" "}
-                <b className="purple">
-                  Frameworks e Aplicativos para Celular.
-                </b>
+                <b className="purple">Produtos e Tecnologias para a Web </b>,
+                gosto de{" "}
+                <b className="purple">Frameworks e Aplicativos para Celular.</b>
               </i>
               <br />
               <br />
-              Estou sempre criando sites! caso precise de um entre em <b className="purple">contato.</b>
+              Estou sempre criando sites! caso precise de um entre em{" "}
+              <b className="purple">contato.</b>
             </span>
           </Col>
           <Col md={4} className="myAvtar">
@@ -68,12 +76,13 @@ function Home2() {
           <Col md={12} className="home-about-social">
             <h1>ME SIGA NAS REDES</h1>
             <p>
-              Fique livre para me <span className="purple">mandar uma mensagem</span>.
+              Fique livre para me{" "}
+              <span className="purple">mandar uma mensagem</span>.
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/davi38"
+                  href="https://github.com/d1av"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -93,7 +102,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/feed/"
+                  href="https://www.linkedin.com/in/d1av/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
