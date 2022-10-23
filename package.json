@@ -7,6 +7,7 @@
     "@react-pdf/renderer": "^3.0.0",
     "axios": "^0.27.2",
     "bootstrap": "^5.2.0",
+    "caniuse-lite": "^1.0.30001423",
     "darkmode-js": "^1.5.7",
     "embaralha": "^0.4.1",
     "gh-pages": "^4.0.0",
@@ -58,6 +59,8 @@
     ]
   },
   "devDependencies": {
+    "@types/react": "^18.0.21",
+    "@types/react-dom": "^18.0.6",
     "@types/react-pdf": "^5.7.2"
   }
 }
