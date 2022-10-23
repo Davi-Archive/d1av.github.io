@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.1e196851.css",
-    "main.js": "/static/js/main.6392e480.js",
-    "static/js/496.edb9e3d0.chunk.js": "/static/js/496.edb9e3d0.chunk.js",
+    "main.css": "/static/css/main.fa3a2c64.css",
+    "main.js": "/static/js/main.e85b7cf7.js",
+    "static/js/496.16f40a0b.chunk.js": "/static/js/496.16f40a0b.chunk.js",
     "static/media/avatar.png": "/static/media/avatar.5a858d046d93d19f918a.png",
-    "pdf.worker.js": "/e7e915313973ba1d49f9bb2a1998626e.js",
+    "pdf.worker.js": "/fba171de7bad31878d85d80a4083a09d.js",
     "static/media/promocao.png": "/static/media/promocao.0c62a1ec233f1cdd7a84.png",
     "static/media/portfolio.png": "/static/media/portfolio.366af5f02f13dad2780d.png",
-    "static/media/medida.png": "/static/media/medida.842dd822b8faf91ee496.png",
     "static/media/cryptoBack.png": "/static/media/cryptoBack.2fad8d55bafc3142973e.png",
     "static/media/DaviAlves-developer.pdf": "/static/media/DaviAlves-developer.162924229c1a59a7ea46.pdf",
     "static/media/background-home.jpg": "/static/media/background-home.67858a909069b1965ca1.jpg",
-    "static/media/calc-media.png": "/static/media/calc-media.4163ba58d26685884c38.png",
     "static/media/home-main.png": "/static/media/home-main.2726e06e2f8584814c29.png",
     "static/media/about.png": "/static/media/about.913b186c60a164c92665.png",
     "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/index.html",
-    "main.1e196851.css.map": "/static/css/main.1e196851.css.map",
-    "main.6392e480.js.map": "/static/js/main.6392e480.js.map",
-    "496.edb9e3d0.chunk.js.map": "/static/js/496.edb9e3d0.chunk.js.map"
+    "main.fa3a2c64.css.map": "/static/css/main.fa3a2c64.css.map",
+    "main.e85b7cf7.js.map": "/static/js/main.e85b7cf7.js.map",
+    "496.16f40a0b.chunk.js.map": "/static/js/496.16f40a0b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1e196851.css",
-    "static/js/main.6392e480.js"
+    "static/css/main.fa3a2c64.css",
+    "static/js/main.e85b7cf7.js"
   ]
 }
