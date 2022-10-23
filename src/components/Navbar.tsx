@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
@@ -8,9 +8,7 @@ import { CgGitFork } from "react-icons/cg";
 import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
-  AiOutlineUser,
-  AiOutlineClockCircle,
-} from "react-icons/ai";
+  AiOutlineUser} from "react-icons/ai";
 import { CgFileDocument } from "react-icons/cg";
 
 

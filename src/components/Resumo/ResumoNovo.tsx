@@ -3,7 +3,6 @@ import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import { AiOutlineDownload } from "react-icons/ai";
-/* import { Document, Page } from "react-pdf"; */
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
 import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 
@@ -11,7 +10,7 @@ import 'react-pdf/dist/esm/Page/AnnotationLayer.css';
 const resumoLinkAutoAtualiza = "https://raw.githubusercontent.com/d1av/d1av.github.io/main/src/Assets/DaviAlves-developer.pdf";
 
 function ResumeNew() {
-  const pdf = require("../../Assets/../Assets/DaviAlves-developer.pdf");
+  const pdf = require("../../Assets/DaviAlves-developer.pdf");
   const [width, setWidth] = useState(1200);
 
   useEffect(() => {
