@@ -6,7 +6,7 @@ services:
     # Imagem base do container
     image: node:19
     # Nome do container para facilitar execução
-    container_name: Portfolio
+    container_name: d1av.github.io
     # Mesmo que `docker run -t`
     tty: true
     build:
