@@ -1,4 +1,3 @@
-https://user-images.githubusercontent.com/107776531/187005054-29a10411-7216-48fa-bcce-92e085c24868.mp4
 
 ## 🔥 Projeto Portfólio
 Esse é o código do meu portfólio que tem como objetivo mostrar meus projetos de um maneira mais visual, localizado em https://d1av.github.io/
@@ -68,7 +67,7 @@ npm install
  
  ---
  
-
+<img src="https://user-images.githubusercontent.com/107776531/187005054-29a10411-7216-48fa-bcce-92e085c24868.mp4" width="100" />
 
  
  
